@@ -2,7 +2,7 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-const currentDay = dayjs().format(dddd, MMMM D, YYYY h:mm A);
+const currentDay = dayjs().format("dddd, MMMM D, YYYY h:mm A");
 console.log(currentDay);
 
 const currentHr = dayjs().hour();
