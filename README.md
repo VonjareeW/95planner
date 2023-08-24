@@ -24,6 +24,8 @@ WHEN I refresh the page
 THEN the saved events persist
 
 # Screenshot
+<img width="1440" alt="Screenshot 2023-08-24 at 4 00 28 PM" src="https://github.com/VonjareeW/95planner/assets/52430595/4472ce65-c97b-43fd-a5b4-8f4098c15d1c">
+<img width="1437" alt="Screenshot 2023-08-24 at 4 00 37 PM" src="https://github.com/VonjareeW/95planner/assets/52430595/8136fe18-03ff-4549-a69b-8d277338ed7d">
 
 # Deployment
 https://vonjareew.github.io/95planner/
@@ -31,4 +33,5 @@ https://vonjareew.github.io/95planner/
 # Resources/Source Code
 https://github.com/coding-boot-camp/crispy-octo-meme
 
+Used class notes and tips from in-class sessions. I used our class Ai edX program to grasp concepts and for guidance.
 
