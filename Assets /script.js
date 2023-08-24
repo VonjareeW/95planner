@@ -8,6 +8,9 @@ console.log(currentDay);
 const currentHr = dayjs().hour();
 console.log(currentHr);
 
+const currentHr = dayjs().hour();
+console.log(currentHr);
+
 $(document).ready(function(){
 
   $("#currentDay").text(currentDay);
