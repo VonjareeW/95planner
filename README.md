@@ -31,7 +31,8 @@ THEN the saved events persist
 https://vonjareew.github.io/95planner/
 
 # Resources/Source Code
-https://github.com/coding-boot-camp/crispy-octo-meme
+https://github.com/coding-boot-camp/crispy-octo-meme 
+located root index.html css in assets folder
 
 Class notes and tips from in-class sessions. 
 
