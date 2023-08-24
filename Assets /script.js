@@ -2,6 +2,8 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
+// constant to grab current date and Hour of day
+
 const currentDay = dayjs().format('dddd, MMMM D, YYYY');
 console.log(currentDay);
 
@@ -9,7 +11,7 @@ const currentHr = dayjs().hour();
 console.log(currentHr);
 
 
-
+// when user inputs data in specifc time block/text box and clicks save , data is store locally
 $(document).ready(function(){
 
   $("#currentDay").text(currentDay);
@@ -37,6 +39,7 @@ $(document).ready(function(){
     });
   }
 
+// Time block based on hours from 9am to 5pm , info retrieve from specific item storage
 
   $("#hr-09 .description").val(localStorage.getItem("hr-09"));
   $("#hr-10 .description").val(localStorage.getItem("hr-10"));
