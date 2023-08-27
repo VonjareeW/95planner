@@ -40,17 +40,10 @@ $(document).ready(function(){
   }
 
 // Time block based on hours from 9am to 5pm , info retrieve from specific item storage
+for(let i = 9; i <= 17; i++) {  // Changed 'O' to '9' and '<' to '<='
+  $("#" + "hr-" + i + " .description").val(localStorage.getItem("hr-" + i));  // Changed 'getltem' to 'getItem'
+}
 
-  $("#hr-09 .description").val(localStorage.getItem("hr-09"));
-  $("#hr-10 .description").val(localStorage.getItem("hr-10"));
-  $("#hr-11 .description").val(localStorage.getItem("hr-11"));
-  $("#hr-12 .description").val(localStorage.getItem("hr-12"));
-  $("#hr-13 .description").val(localStorage.getItem("hr-13"));
-  $("#hr-14 .description").val(localStorage.getItem("hr-14"));
-  $("#hr-15 .description").val(localStorage.getItem("hr-15"));
-  $("#hr-16 .description").val(localStorage.getItem("hr-16"));
-  $("#hr-17 .description").val(localStorage.getItem("hr-17"));
-
-  eachTimeSlot();
+eachTimeSlot();
 
 });
